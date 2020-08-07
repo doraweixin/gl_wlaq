@@ -42,6 +42,17 @@ ul,li{
 	float: right;
 }
 /*--------navList效果----------*/
+.effects1{
+	width:100%;
+    cursor: pointer;  
+    transition: all 0.6s;  
+}
+.effects1:hover{
+	transform:scale(1.2);
+}
+.effects2{
+	
+}
 .clearfix:after{
 	content: "."; display: block; height: 0; clear: both; visibility: hidden;
 }
@@ -119,7 +130,7 @@ ul,li{
 
 /*---------tab切换---------*/
 .content{
-	width: 1400px; margin: 40px auto; 
+	width: 1400px; margin: 40px auto;
 }
 .left_tab{ 
 	width: 1400px; margin: auto; 
@@ -137,7 +148,7 @@ ul,li{
 	height: 58px; border-bottom: solid 2px #073575;
 }
 .left_tab .bd .box{
-	margin: 0 -8px; position: relative; overflow: visible;
+	margin: auto; position: relative; overflow: visible;
 }
 .left_tab .bd .box .more{
 	position: absolute; top: -40px; right: 29px; font-size: 13px; color: #818181;
@@ -365,5 +376,5 @@ ul,li{
 	color: #333;
 }
 .n_link ul li span{ 
-	float: right; font-weight: normal; +margin-top: -40px!important; +padding-right: 20px!important;
+	float: right; font-weight: normal; margin-top: -40px!important; padding-right: 20px!important;
 }
